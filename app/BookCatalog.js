@@ -5,7 +5,7 @@ import { Searchbar } from 'react-native-paper';
 
 const BookCatalog = ({ navigation }) => {
   const [searchQuery, setSearchQuery] = useState('');
-  
+
   // Sample book data
   const books = [
     {
@@ -22,6 +22,76 @@ const BookCatalog = ({ navigation }) => {
       genre: 'Mystery',
       coverImage: 'url_to_cover_image_2',
     },
+    {
+      "id": "2",
+      "title": "The Adventures of Sherlock Holmes",
+      "author": "Arthur Conan Doyle",
+      "genre": "Mystery",
+      "coverImage": "url_to_cover_image_3"
+    },
+    {
+      "id": "3",
+      "title": "The Hound of the Baskervilles",
+      "author": "Arthur Conan Doyle",
+      "genre": "Mystery",
+      "coverImage": "url_to_cover_image_4"
+    },
+    {
+      "id": "4",
+      "title": "The Sign of the Four",
+      "author": "Arthur Conan Doyle",
+      "genre": "Mystery",
+      "coverImage": "url_to_cover_image_5"
+    },
+    {
+      "id": "5",
+      "title": "The Valley of Fear",
+      "author": "Arthur Conan Doyle",
+      "genre": "Mystery",
+      "coverImage": "url_to_cover_image_6"
+    },
+    {
+      "id": "6",
+      "title": "A Scandal in Bohemia and Other Stories",
+      "author": "Arthur Conan Doyle",
+      "genre": "Mystery",
+      "coverImage": ""
+    },
+    {
+      "id": "7",
+      "title": "\"The Adventure of the Speckled Band\" and Other Stories",
+      "author": "Arthur Conan Doyle",
+      "genre": "Mystery",
+      "coverImage": ""
+    },
+    {
+      "id": 8,
+      title: 'The Complete Sherlock Holmes',
+      author: 'Arthur Conan Doyle',
+      genre: 'Mystery',
+      coverImage: 'url_to_cover_image_7'
+    },
+    {
+      id: '9',
+      title: 'The Return of Sherlock Holmes',
+      author: 'Arthur Conan Doyle',
+      genre: 'Mystery',
+      coverImage: 'url_to_cover_image_8'
+    },
+    {
+      id: '10',
+      title: 'His Last Bow',
+      author: 'Arthur Conan Doyle',
+      genre: 'Mystery',
+      coverImage: ''
+    },
+    {
+      id: '11',
+      title: 'The Case-Book of Sherlock Holmes',
+      author: 'Arthur Conan Doyle',
+      genre: 'Mystery',
+      coverImage: ''
+    }
     // Add more book data here
   ];
 
